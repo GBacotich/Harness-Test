@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Harness_Test_1686232492852-pr-trigger-input-set
+  identifier: Build_Harness_Test_1686232492852prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Sandbox
+  pipeline:
+    identifier: Build_Harness_Test_1686232492852
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
