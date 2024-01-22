@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_GBacotich_Harness_Test_1705911319746-push-trigger-input-set
+  identifier: Build_GBacotich_Harness_Test_1705911319746pushtriggerinputset
+  orgIdentifier: WMS
+  projectIdentifier: SmartCourier
+  pipeline:
+    identifier: Build_GBacotich_Harness_Test_1705911319746
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
