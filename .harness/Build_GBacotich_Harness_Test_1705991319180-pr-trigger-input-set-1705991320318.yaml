@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_GBacotich_Harness_Test_1705991319180-pr-trigger-input-set
+  identifier: Build_GBacotich_Harness_Test_1705991319180prtriggerinputset
+  orgIdentifier: WMS
+  projectIdentifier: SmartCourier
+  pipeline:
+    identifier: Build_GBacotich_Harness_Test_1705991319180
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
