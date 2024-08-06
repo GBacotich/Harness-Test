@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_GBacotich_Harness_Test_1722923964643-push-trigger-input-set
+  identifier: Build_GBacotich_Harness_Test_1722923964643pushtriggerinputset
+  orgIdentifier: WMS
+  projectIdentifier: BillingApp
+  pipeline:
+    identifier: Build_GBacotich_Harness_Test_1722923964643
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
